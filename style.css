@@ -1,5 +1,32 @@
-* {font-family: "American Typewriter", Georgia, 'Times New Roman', Times, serif;}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+  }
 
-.sub-heading {
-    color: darkgreen
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+.logo {
+  display: flex;
+  font-weight: 48px extra-bold #f9faf8;
+}
+
+.top-links {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding: 12px;
+  text-decoration: none;
+  list-style-type: none;
+}
+  
+.core {
+    display: flex;
+  }
