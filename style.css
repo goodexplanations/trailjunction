@@ -2,18 +2,28 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: space-between;
+  
+    margin: 0;
+  
   }
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #082f00;
+  color: white;
+  font-family: "American Typewriter";
+  font-weight: 200;
+  letter-spacing: 1px;
 }
 
 .logo {
+  font-size: 24px;
   display: flex;
   font-weight: 48px extra-bold #f9faf8;
+  align-items: center;
+  padding: 16px;
 }
 
 .top-links {
@@ -23,10 +33,36 @@ body {
 
 li {
   padding: 12px;
-  text-decoration: none;
   list-style-type: none;
 }
-  
+
+a {
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: lightgreen; /* Set the same color for visited links as normal links */
+}
+
+
 .core {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 800px;
   }
+
+.core-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+  }
+
+.footer {
+  display: flex;
+  justify-self: flex-end;
+}
