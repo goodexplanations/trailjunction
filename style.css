@@ -1,8 +1,12 @@
 body {
+    font-family: "American Typewriter";
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  
+    justify-content: space-between;
     margin: 0;
   
   }
@@ -12,10 +16,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   background-color: #082f00;
-  color: white;
-  font-family: "American Typewriter";
-  font-weight: 200;
-  letter-spacing: 1px;
+  
 }
 
 .logo {
@@ -24,11 +25,14 @@ body {
   font-weight: 48px extra-bold #f9faf8;
   align-items: center;
   padding: 16px;
+  padding-left: 100px;
 }
 
 .top-links {
   display: flex;
   flex-direction: row;
+  padding-right: 100px;
+
 }
 
 li {
@@ -49,20 +53,149 @@ a:visited {
 .core {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
+    align-items: space-between;
     min-height: 800px;
+    background-color: #082f00;
+    color: white;
   }
 
 .core-1 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     min-height: 400px;
+    gap:100px;
   }
+
+.core-1-left {
+  padding-left: 100px;
+  gap: 30px;
+}
+
+.sub-header {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.sub-text {
+  margin-bottom: 15px;
+}
+
+button {
+  font-size: 18px;
+  font-family: "American Typewriter";
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 12px;
+  color: #082f00;
+}
+
+#pic1 {
+  max-height: 300px;
+  width: auto;
+  padding-right: 100px;
+}
+
+.core-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 400px;
+  gap:100px;
+}
+
+.core-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(224, 238, 224);
+  color:black;
+}
+
+.sub-header-2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  padding: 30px;
+}
+
+.races-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.race-text {
+  padding: 10px;
+  max-width: 180px;
+  text-align: center;
+}
+
+
+.core-3 {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 100px;
+  gap:16px;
+}
+
+.quote {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 20px;
+  font-weight: 500;
+  align-self: flex-end;
+}
+
+
+.core-4 {
+  background-color: rgb(224, 238, 224);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  min-height: 200px;
+  max-height:400px;
+  padding: 60px 100px;
+}
+
+.blue-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  border-radius: 10px;
+  height: 160px;
+  flex-grow: 1;
+}
+
+.call-to-action {
+  font-weight: 400;
+  font-size: 22px;
+  margin: 40px 20px;
+}
+
+.small-talk {
+  max-width: 400px;
+  margin: 40px 20px;
+}
 
 .footer {
   display: flex;
-  justify-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  background-color: #082f00;
+  padding: 20px;
 }
+
